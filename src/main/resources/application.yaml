@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: main
+  datasource:
+    url: jdbc:mysql://127.0.0.1/test
+    username: root
+    password: 
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    # database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+
+
+jwt:
+  secret: thisIsMysecregtfrdesww233eggtffeeddgkjjhhtdhttebd54ndhdhfhhhshs8877465sbbdd
+  expiration: 3600000

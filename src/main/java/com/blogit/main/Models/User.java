@@ -36,7 +36,6 @@ public class User {
     private String password;
 
     @Email
-    @NotNull
     private String email;
 
 }
